@@ -100,7 +100,7 @@ body{
     color: #1B80CF;
 }
 .content h3 {
-    color: #1B80CF;
+    color: #D02B8F;
 }
 .content h2::before,
 .content h3::before{
@@ -131,6 +131,10 @@ body{
     max-width:100%;
     max-height:100%;
 }
+.active {
+    color: #d02b8f;
+    background-color: lavenderblush;
+}
 @media (max-width: 640px), screen and (orientation: portrait) {
     body {
         max-width:100%;
@@ -138,7 +142,7 @@ body{
     }
     #sidebar {
         position: fixed;
-        background-color: #1B80CF;
+        background-color: #D02B8F;
         top: 0;
         left: 0;
         bottom: 80vh;
@@ -176,7 +180,7 @@ body{
     .home{
         z-index:100;
         width:100%;
-        background-color:#1B80CF;
+        background-color:#D02B8F;
         font-size:1.5vmax;
     }
     .home a:link,
@@ -203,5 +207,9 @@ body{
         max-width:100%;
         max-height:100%;
         border:0;
+    }
+    .active {
+        color: #d02b8f;
+        background-color: lavenderblush;
     }
 }

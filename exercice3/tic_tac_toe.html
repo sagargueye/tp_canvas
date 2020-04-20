@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title>Canvas | sagar GUEYE</title>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Language" content="fr">
+  <link rel="shortcut icon" href="icone.jfif" />
+  <link rel="stylesheet" href="../monstyle.css" type="text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="sidebar">
+  <div class="title">
+    <h1><a href="./index.html">A la decouverte de Canvas</a></h1>
+  </div>
+  <div class="subtitle">
+    <h3><a href="#">TP réalisé par sagar GUEYE</a></h3>
+  </div>
+</div>
+<div class="page">
+  <div class="form-row">
+    <div class="col">
+      <nav class="navbar navbar-light navbar-expand-lg" >
+        <div style="float: right">
+          <ul class="nav">
+            <li class="nav-item"><a class="nav-link " id="1" href="../exercice1/exemple.html">Exercice 1</a></li>
+            <li class="nav-item"><a class="nav-link " id="2" href="../exercice2/maison.html">Exercice 2</a></li>
+            <li class="nav-item"><a class="nav-link active" id="3" href="../exercice3/tic_tac_toe.html" >Exercice 3</a></li>
+            <li class="nav-item"><a class="nav-link " id="4" href="../exercice4/demographie.html">Exercice 4</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <h2>Tic-tac-toe</h2>
+  <p> Pour jouer vous pouvez utiliser la souris en cliquant dans les cases ou utiliser les touches du clavier. </p>
+  <h3>Jouer avec les touches du clavier</h3>
+  <P>Les coordonnées des case: (x,y)<br>
+    La touche 1 correspond à la case de coordonnée (0,0)<br>
+    La touche 2 correspond à la case de coordonnée (1,0)<br>
+    La touche 3 correspond à la case de coordonnée (2,0)<br>
+    La touche 4 correspond à la case de coordonnée (0,1)<br>
+    La touche 5 correspond à la case de coordonnée (1,1)<br>
+    La touche 6 correspond à la case de coordonnée (2,1)<br>
+    La touche 7 correspond à la case de coordonnée (0,2)<br>
+    La touche 8 correspond à la case de coordonnée (1,2)<br>
+    La touche 9 correspond à la case de coordonnée (2,2)<br>
+  </P>
+  <canvas id="tic_tac_toe" width="900" height="900"></canvas>
+</div>
+
+<script src="tic_tac_toe.js"></script>
+<script src="../js/script.js"></script>
+</body>
+</html>
